@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="./script/script.js"></script>
     <title>Zurita'motors</title>
 </head>
 <body>
@@ -11,7 +12,276 @@
         
     </header>
     <main>
+        <section class="seccion">
+            <header class="seccion__cabecera">
+                <h2 class="seccion__titulo">Encuentra El Auto De Tus Sueños</h2>
+                <p class="seccion__subtitulo">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <div class="seccion__adorno"></div>
+            </header>
+            <form action="">
+                <div class="container">
+                    <div class="cars-panel">
+                        <div class="opcion">
+                            <svg class="opcion__icono">
+                                <use href="./assets/icons/cars.svg#car-pickup"></use>
+                            </svg>
+                            <span class="opcion__nombre">Pick up</span>
+                        </div>
+                        <div class="opcion">
+                            <svg class="opcion__icono">
+                                <use href="./assets/icons/cars.svg#car-jeep"></use>
+                            </svg>
+                            <span class="opcion__nombre">Jeep</span>
+                        </div>
+                        <div class="opcion opcion--seleccionada">
+                            <svg class="opcion__icono">
+                                <use href="./assets/icons/cars.svg#car-coupe"></use>
+                            </svg>
+                            <span class="opcion__nombre">Coupe</span>
+                        </div>
+                        <div class="opcion">
+                            <svg class="opcion__icono">
+                                <use href="./assets/icons/cars.svg#car-muscle"></use>
+                            </svg>
+                            <span class="opcion__nombre">Muscle</span>
+                        </div>
+                        <div class="opcion">
+                            <svg class="opcion__icono">
+                                <use href="./assets/icons/cars.svg#car-sedan"></use>
+                            </svg>
+                            <span class="opcion__nombre">Sedan</span>
+                        </div>
+                        <div class="opcion">
+                            <svg class="opcion__icono">
+                                <use href="./assets/icons/cars.svg#car-mini"></use>
+                            </svg>
+                            <span class="opcion__nombre">Minicar</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="filtros">
+                    <div class="container">
+                        <div class="filtros__columna">
+                            <select name="" id="" class="filtros__select">
+                                <option value="">Seleccionar Marca</option>
+                                <option value="">Toyota</option>
+                                <option value="">Honda</option>
+                                <option value="">Chevrolet</option>
+                                <option value="">Nissan</option>
+                            </select>
+                            <select name="" id="" class="filtros__select">
+                                <option value="">Seleccionar Modelo</option>
+                                <option value="">Toyota</option>
+                                <option value="">Honda</option>
+                                <option value="">Chevrolet</option>
+                                <option value="">Nissan</option>
+                            </select>
+                        </div>
+                        <div class="filtros__columna">
+                            <select name="" id="" class="filtros__select">
+                                <option value="">Seleccionar Modelo</option>
+                                <option value="">Toyota</option>
+                                <option value="">Honda</option>
+                                <option value="">Chevrolet</option>
+                                <option value="">Nissan</option>
+                            </select>
+                            <select name="" id="" class="filtros__select">
+                                <option value="">Seleccionar Locaciones</option>
+                                <option value="">Toyota</option>
+                                <option value="">Honda</option>
+                                <option value="">Chevrolet</option>
+                                <option value="">Nissan</option>
+                            </select>
+                        </div>
+                        <div class="filtros__columna">
+                            <select name="" id="" class="filtros__select">
+                                <option value="">Seleccionar Año</option>
+                                <option value="">Toyota</option>
+                                <option value="">Honda</option>
+                                <option value="">Chevrolet</option>
+                                <option value="">Nissan</option>
+                            </select>
+                            <select name="" id="" class="filtros__select">
+                                <option value="">Marca</option>
+                                <option value="">Toyota</option>
+                                <option value="">Honda</option>
+                                <option value="">Chevrolet</option>
+                                <option value="">Nissan</option>
+                            </select>
+                        </div>
+                        <div class="filtros__columna filtros__columna--ultima">
+                            <div class="filtros__busqueda">
+                                <button class="">BUSCAR VEHICULO</button>
+                                <a href="" class="">BUSQUEDA AVANZADA</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </section>
 
+        <section class="seccion">
+            <div class="container">
+                <header class="seccion__cabecera">
+                    <h2 class="seccion__titulo">Vehiculos Destacados</h2>
+                    <p class="seccion__subtitulo">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    <div class="seccion__adorno"></div>
+                </header>
+            </div>
+            <div class="seccion__contenido">
+                <div class="destacados">
+                    <div class="tarjeta">
+                        <div class="tarjeta__imagen">
+                            <img src="./img/cards/featured-1.jpg" alt="Vehiculo 1">
+                            <div class="tarjeta__precio">$45,000 <span>MSRP $27,000</span></div>
+                        </div>
+                        <ul class="tarjeta__caracteristicas">
+                            <li>35,000 mi</li>
+                            <li>Model: 2017</li>
+                            <li>Auto</li>
+                            <li>320 hp</li>
+                        </ul>
+                        <h3 class="tarjeta__titulo">Lexus GX 490i Hybrid</h3>
+                        <p class="tarjeta__descripcion">Duis aute irure reprehender voluptate velit ese acium fugiat nulla pariatur excepteur ipsum.</p>
+                    </div>
+                    <div class="tarjeta">
+                        <div class="tarjeta__imagen">
+                            <img src="./img/cards/featured-2.jpg" alt="Vehiculo 1">
+                            <div class="tarjeta__precio">$45,000 <span>MSRP $27,000</span></div>
+                        </div>
+                        <ul class="tarjeta__caracteristicas">
+                            <li>35,000 mi</li>
+                            <li>Model: 2017</li>
+                            <li>Auto</li>
+                            <li>320 hp</li>
+                        </ul>
+                        <h3 class="tarjeta__titulo">Lexus GX 490i Hybrid</h3>
+                        <p class="tarjeta__descripcion">Duis aute irure reprehender voluptate velit ese acium fugiat nulla pariatur excepteur ipsum.</p>
+                    </div>
+                    <div class="tarjeta">
+                        <div class="tarjeta__imagen">
+                            <img src="./img/cards/featured-3.jpg" alt="Vehiculo 1">
+                            <div class="tarjeta__precio">$45,000 <span>MSRP $27,000</span></div>
+                        </div>
+                        <ul class="tarjeta__caracteristicas">
+                            <li>35,000 mi</li>
+                            <li>Model: 2017</li>
+                            <li>Auto</li>
+                            <li>320 hp</li>
+                        </ul>
+                        <h3 class="tarjeta__titulo">Lexus GX 490i Hybrid</h3>
+                        <p class="tarjeta__descripcion">Duis aute irure reprehender voluptate velit ese acium fugiat nulla pariatur excepteur ipsum.</p>
+                    </div>
+                    <div class="tarjeta">
+                        <div class="tarjeta__imagen">
+                            <img src="./img/cards/featured-4.jpg" alt="Vehiculo 1">
+                            <div class="tarjeta__precio">$45,000 <span>MSRP $27,000</span></div>
+                        </div>
+                        <ul class="tarjeta__caracteristicas">
+                            <li>35,000 mi</li>
+                            <li>Model: 2017</li>
+                            <li>Auto</li>
+                            <li>320 hp</li>
+                        </ul>
+                        <h3 class="tarjeta__titulo">Lexus GX 490i Hybrid</h3>
+                        <p class="tarjeta__descripcion">Duis aute irure reprehender voluptate velit ese acium fugiat nulla pariatur excepteur ipsum.</p>
+                    </div>
+                    <div class="tarjeta">
+                        <div class="tarjeta__imagen">
+                            <img src="./img/cards/featured-5.jpg" alt="Vehiculo 1">
+                            <div class="tarjeta__precio">$45,000 <span>MSRP $27,000</span></div>
+                        </div>
+                        <ul class="tarjeta__caracteristicas">
+                            <li>35,000 mi</li>
+                            <li>Model: 2017</li>
+                            <li>Auto</li>
+                            <li>320 hp</li>
+                        </ul>
+                        <h3 class="tarjeta__titulo">Lexus GX 490i Hybrid</h3>
+                        <p class="tarjeta__descripcion">Duis aute irure reprehender voluptate velit ese acium fugiat nulla pariatur excepteur ipsum.</p>
+                    </div>
+                    <div class="tarjeta">
+                        <div class="tarjeta__imagen">
+                            <img src="./img/cards/featured-1.jpg" alt="Vehiculo 1">
+                            <div class="tarjeta__precio">$45,000 <span>MSRP $27,000</span></div>
+                        </div>
+                        <ul class="tarjeta__caracteristicas">
+                            <li>35,000 mi</li>
+                            <li>Model: 2017</li>
+                            <li>Auto</li>
+                            <li>320 hp</li>
+                        </ul>
+                        <h3 class="tarjeta__titulo">Lexus GX 490i Hybrid</h3>
+                        <p class="tarjeta__descripcion">Duis aute irure reprehender voluptate velit ese acium fugiat nulla pariatur excepteur ipsum.</p>
+                    </div>
+                    <div class="tarjeta">
+                        <div class="tarjeta__imagen">
+                            <img src="./img/cards/featured-2.jpg" alt="Vehiculo 1">
+                            <div class="tarjeta__precio">$45,000 <span>MSRP $27,000</span></div>
+                        </div>
+                        <ul class="tarjeta__caracteristicas">
+                            <li>35,000 mi</li>
+                            <li>Model: 2017</li>
+                            <li>Auto</li>
+                            <li>320 hp</li>
+                        </ul>
+                        <h3 class="tarjeta__titulo">Lexus GX 490i Hybrid</h3>
+                        <p class="tarjeta__descripcion">Duis aute irure reprehender voluptate velit ese acium fugiat nulla pariatur excepteur ipsum.</p>
+                    </div>
+                    <div class="tarjeta">
+                        <div class="tarjeta__imagen">
+                            <img src="./img/cards/featured-3.jpg" alt="Vehiculo 1">
+                            <div class="tarjeta__precio">$45,000 <span>MSRP $27,000</span></div>
+                        </div>
+                        <ul class="tarjeta__caracteristicas">
+                            <li>35,000 mi</li>
+                            <li>Model: 2017</li>
+                            <li>Auto</li>
+                            <li>320 hp</li>
+                        </ul>
+                        <h3 class="tarjeta__titulo">Lexus GX 490i Hybrid</h3>
+                        <p class="tarjeta__descripcion">Duis aute irure reprehender voluptate velit ese acium fugiat nulla pariatur excepteur ipsum.</p>
+                    </div>
+                    <div class="tarjeta">
+                        <div class="tarjeta__imagen">
+                            <img src="./img/cards/featured-4.jpg" alt="Vehiculo 1">
+                            <div class="tarjeta__precio">$45,000 <span>MSRP $27,000</span></div>
+                        </div>
+                        <ul class="tarjeta__caracteristicas">
+                            <li>35,000 mi</li>
+                            <li>Model: 2017</li>
+                            <li>Auto</li>
+                            <li>320 hp</li>
+                        </ul>
+                        <h3 class="tarjeta__titulo">Lexus GX 490i Hybrid</h3>
+                        <p class="tarjeta__descripcion">Duis aute irure reprehender voluptate velit ese acium fugiat nulla pariatur excepteur ipsum.</p>
+                    </div>
+                    <div class="tarjeta">
+                        <div class="tarjeta__imagen">
+                            <img src="./img/cards/featured-5.jpg" alt="Vehiculo 1">
+                            <div class="tarjeta__precio">$45,000 <span>MSRP $27,000</span></div>
+                        </div>
+                        <ul class="tarjeta__caracteristicas">
+                            <li>35,000 mi</li>
+                            <li>Model: 2017</li>
+                            <li>Auto</li>
+                            <li>320 hp</li>
+                        </ul>
+                        <h3 class="tarjeta__titulo">Lexus GX 490i Hybrid</h3>
+                        <p class="tarjeta__descripcion">Duis aute irure reprehender voluptate velit ese acium fugiat nulla pariatur excepteur ipsum.</p>
+                    </div>
+                </div>
+                <div class="seccion__navegacion">
+                    <svg class="slider__button">
+                        <use href="./assets/icons/icons.svg#icon-arrowleft"></use>
+                    </svg>
+                    <svg class="slider__button">
+                        <use href="./assets/icons/icons.svg#icon-arrowright"></use>
+                    </svg>
+                </div>
+            </div>
+        </section>
+        
     </main>
     <footer>
 
